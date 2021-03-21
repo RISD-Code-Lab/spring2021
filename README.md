@@ -16,7 +16,7 @@ You can also check out materials from our previous iteration of [Code Lab in Spr
 
 ## Code Lab Session 1: The JavaScript Toggle
 April 6, 2021
-- how to control CSS with JavaScript
+- how to control CSS with JavaScript, how JS works with your HTML/CSS
 
 ## Code Lab Session 2: Using Randomness
 April 13, 2021
