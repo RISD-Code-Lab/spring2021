@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+} 
+
+.container{
+ 	width: 500px;
+	margin: auto;
+}
+
+.item{
+	border-top: 2px solid blue;
+	padding: 2rem 0;
+}
+
+h1{
+	text-align: center;
+	margin: 1rem auto;
+}
+
+h3{
+	margin: .5rem 0;
+}
+
+a{
+	color: blue;
+}
+a:hover{
+	color: red;
+}
+
+.details{
+	line-height: 1.3;
+	color: blue;
+	display: none;
+}
+/*
+.item:hover .details{
+	display: block;
+}
+*/
+
+.active{
+	display: block;
+/*	background: yellow;*/
+}
+
+button{
+	font-size: 1rem;
+	font-weight: bold;
+	border: 2px solid blue;
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+
+button:hover{
+	background: rgb(200 200 200);
+	cursor: pointer;
+}
+
