@@ -1,34 +1,7 @@
-body{
-	font-family: Helvetica, sans-serif;
-}
-
-.button{
-	padding: 2rem 3rem;
-	background: green;
-	color: white;
+.controls{
 	text-align: center;
-	border-radius: 10px;
-	cursor: pointer;
+	margin-top: 3rem;
 }
-
-.button:hover{
-	opacity: 0.8;
-}
-
-h1{
-	display: none;
-	background: yellow;
-	padding: 1rem;
-}
-
-h2{
-	color: red;
-}
-
-.reveal{
-	display: block;
-}
-
 .elementcontainer {
 	height: 80vh;
 	display: flex;
@@ -43,6 +16,7 @@ h2{
 	width: 100px;
 	height: 100px;
 	margin: 10px;
+	transition: background-color 800ms ease-in;
 	background-color: blue;
 }
 
@@ -51,7 +25,8 @@ h2{
 }
 
 .play{
-	animation: wheel 1s ease-in-out alternate infinite;
+	background-color: rgb(255 0 230);
+	animation: wheel 1s ease-in-out infinite;
 }
 
 @keyframes wheel {

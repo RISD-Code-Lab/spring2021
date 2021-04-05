@@ -1,38 +1,23 @@
 
-console.log('hello world');
+console.log('accordion demo');
 
-//---------------------------
-// setup show hide all button
-//---------------------------
 
-let trigger = document.getElementById("showhide");
-// this is the element that triggers your interaction
+$(document).ready(function(){
 
-trigger.onclick = function (event) {
-// 	we are setting up the trigger to listne to the 'click' event
-	console.log('trigger clicked!');
+	//------------------------------------
+	// show hide each itme
+	//------------------------------------
 
-	let detaildivs = document.querySelectorAll('.details');
-	
-	detaildivs.forEach(function(element){
-		element.classList.toggle('active');
+	$('.item').click(function(){
+		$(this).toggleClass('active');
 	});
-};
 
-// alternative syntax is:
-// trigger.addEventListener('click', function(event){
-		//do stuff here
-// });
+	//---------------------------
+	// setup show hide all button
+	//---------------------------
+	$("#showhide").click(function(){
+		
+		$('.item').toggleClass('active');
+	});
 
-
-//------------------------------------
-// setup show hide button in each item
-//------------------------------------
-
-let items = document.querySelectorAll('.item');
-
-items.forEach(function(element){
-	element.onclick = function(event){
-		element.querySelector('.details').classList.toggle('active');
-	};
 });

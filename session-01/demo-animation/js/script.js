@@ -1,14 +1,24 @@
 $(document).ready(function(){
 
-	$('.button').click(function(){
-		console.log('click detected');
-		$('h1').toggleClass('reveal');
-	});
 
 	$(".element").click(function(){
-		console.log("clicking element");
+		
+		//---------------------------------------
+		// add 'play' class to activate animation
+		//---------------------------------------
 		$(this).toggleClass('play');
 	});
+
+	$('#toggle').click(function(){
+		$('.element').toggleClass('play');
+	});
+	$('#play').click(function(){
+		$('.element').addClass('play');
+	});
+	$('#pause').click(function(){
+		$('.element').removeClass('play');
+	});
+
 
 });
 
