@@ -6,10 +6,6 @@ $(document).ready(function() {
     // $('.group2').toggleClass('blue');
 
     // 2. toggle the copy of the button
-    if ($(this).text() == $(this).data('copy-swap')) {
-      $(this).text($(this).data('copy-original')) 
-    } else {
-      $(this).text($(this).data('copy-swap'));
-    }
+    $(this).toggleClass('active');
   });
 });

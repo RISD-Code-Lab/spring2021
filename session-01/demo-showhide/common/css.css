@@ -1,26 +1,38 @@
 body {
     margin:2rem;
-  }
-  button {
-    bottom: 2rem;
-    display: block;
-    font-size: 4rem;
-    color:black;
-    border: solid 2px;
-    padding: 1rem;
-    cursor:pointer;
-    margin:0 auto;
-  }
-  div {
-    display: inline-block;
-    min-width: 100px;
-    min-height: 100px;
-    background-color:black;
-    margin: 60px;
-  }
-  .red {
-    background-color: red;
-  }
-  .blue {
-    background-color: blue;
-  }
+}
+
+button {
+  bottom: 2rem;
+  display: block;
+  font-size: 4rem;
+  color:black;
+  border: solid 2px;
+  padding: 1rem;
+  cursor:pointer;
+  margin:0 auto;
+}
+
+button::before {
+  content:"hide";
+}
+
+button.active::before {
+  content: "show";
+}
+
+div {
+  display: inline-block;
+  min-width: 100px;
+  min-height: 100px;
+  background-color:black;
+  margin: 60px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
