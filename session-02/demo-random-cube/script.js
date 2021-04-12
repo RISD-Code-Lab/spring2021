@@ -15,8 +15,6 @@ function update_rectangle(x, y, width, height)
 
 $(document).ready(function() {
 
-  let rect = $('<div>').addClass('rectangle');
-  $('body').append(rect);
   update_rectangle(
     window.innerWidth / 2.0 - 50,
     window.innerHeight / 2.0 - 50,
