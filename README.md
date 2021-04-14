@@ -1,6 +1,6 @@
 # Code Lab Spring 2021
 
-Tuesdays 10:00am–11:00am | Zoom
+Tuesdays 10:00am–11:00am EST | [Zoom](https://risd.zoom.us/j/299845160)
 
 Code Lab provides foundational skills training for folks interested in computation basics. This won’t be for credit, it won’t assign projects, and it won’t require any commitment other than showing up. It’s about providing supplemntal technical instruction and support that you can incorporate into your class projects.
 
@@ -15,13 +15,13 @@ You can also check out materials from our previous iteration of [Code Lab in Spr
 # Schedule
 
 ## Code Lab Session 1: The JavaScript Toggle
-April 6, 2021 🎥 [recording](https://risd.zoom.us/rec/share/pNRl1nNC7XfklySDIKqqgRWE4UrjJNkz5RTmjuiaXTp6S9m5nEjqhW3c6E2ZLMhl.m4Vhebdjar6O0LKm)
+April 6, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/pNRl1nNC7XfklySDIKqqgRWE4UrjJNkz5RTmjuiaXTp6S9m5nEjqhW3c6E2ZLMhl.m4Vhebdjar6O0LKm)
 - how to control CSS with JavaScript, how JS works with your HTML/CSS
 
 
 ## Code Lab Session 2: Using Randomness
-April 13, 2021 🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibbNymPD-svl3EiUA9oZM-YVst2aT6eOJlfYv9Za8xZHucOflXGgTP.jjQRqd2Vg8Egmxj4)
-- using Math.random for generative designs
+April 13, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibbNymPD-svl3EiUA9oZM-YVst2aT6eOJlfYv9Za8xZHucOflXGgTP.jjQRqd2Vg8Egmxj4)
+- using  `Math.random` for generative designs
 
 ## Code Lab Session 3: Variable Fonts
 April 20, 2021
