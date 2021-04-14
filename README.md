@@ -15,11 +15,12 @@ You can also check out materials from our previous iteration of [Code Lab in Spr
 # Schedule
 
 ## Code Lab Session 1: The JavaScript Toggle
-April 6, 2021
+April 6, 2021 🎥 [recording](https://risd.zoom.us/rec/share/pNRl1nNC7XfklySDIKqqgRWE4UrjJNkz5RTmjuiaXTp6S9m5nEjqhW3c6E2ZLMhl.m4Vhebdjar6O0LKm)
 - how to control CSS with JavaScript, how JS works with your HTML/CSS
 
+
 ## Code Lab Session 2: Using Randomness
-April 13, 2021
+April 13, 2021 🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibbNymPD-svl3EiUA9oZM-YVst2aT6eOJlfYv9Za8xZHucOflXGgTP.jjQRqd2Vg8Egmxj4)
 - using Math.random for generative designs
 
 ## Code Lab Session 3: Variable Fonts
