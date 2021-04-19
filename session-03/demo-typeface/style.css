@@ -1,0 +1,83 @@
+@font-face {
+   font-family: 'TypeFace';
+   src: url('TypeFaceGX.ttf') format("truetype-variations");
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+}
+main{
+   font-family: 'TypeFace';
+	text-align: center;
+   min-height: 100vh;
+}
+
+#face{
+   --brow-axis: 50;
+   --mouth-axis: 50;
+	font-size: 100vh;
+   line-height: .5;
+   transition: color 300ms linear;
+   font-variation-settings: 'BROW' var(--brow-axis), 'MOUT' var(--mouth-axis);
+  
+}
+
+.animated{
+   animation: 4s linear infinite alternate facemover;
+}
+nav{
+   position: fixed;
+   width: 100vw;
+   bottom: 0;
+   padding: 3em 0;
+   text-align: center;
+}
+
+
+button{
+   background: none;
+   border: 1px solid black;
+   padding: 5px 20px;
+}
+
+button, label{
+   font-size: 18px;
+}
+
+
+.field{
+   display: inline-block;
+   margin-right: 2em;
+}
+
+@keyframes facemover{
+   0% {
+      font-variation-settings: 'BROW' 0, 'MOUT' 100;
+   }
+   5% {
+      font-variation-settings: 'BROW' 0, 'MOUT' 100;
+   }
+   25%{
+      font-variation-settings: 'BROW' 100, 'MOUT' 100;
+   }
+   30%{
+      font-variation-settings: 'BROW' 100, 'MOUT' 100;
+   }
+   50%{
+      font-variation-settings: 'BROW' 100, 'MOUT' 0;
+   }
+   55%{
+      font-variation-settings: 'BROW' 100, 'MOUT' 0;
+   }
+   75%{
+      font-variation-settings: 'BROW' 0, 'MOUT' 0;
+   }
+   80% {
+      font-variation-settings: 'BROW' 0, 'MOUT' 0;
+   }
+}

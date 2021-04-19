@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8"> 
+       	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Variable Font + JavaScript Demo</title>
+       	<link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        
+    </head>
+    <body>
+        <section id="intro" class="magmatic">
+            <div id="bigletter">o</div>
+        </section>
+        <section id="sliders">
+            <ul>                   
+                <li data-axes="wght">
+                    <div class="range-name">wght</div>
+                    <div class="min">100</div>
+                    <input data-type="wght" class="range axis-range menu" type="range" min="100" max="900" value="400">
+                    <div class="max">900</div>
+                </li> 
+                <li data-axes="wdth">
+                    <div class="range-name">wdth</div>
+                    <div class="min">40</div>
+                    <input data-type="wdth" class="range axis-range menu" type="range" min="40" max="150" value="100">
+                    <div class="max">150</div>
+                </li>   
+                <li data-axes="XHGT">
+                    <div class="range-name">XHGT</div>
+                    <div class="min">0</div>
+                    <input data-type="XHGT" class="range axis-range menu" type="range" min="0" max="100" value="0">
+                    <div class="max">100</div>
+                </li>
+            </ul>
+        </section>
+        <section id="buttons">
+            <button id="default">Default</button>
+            <button id="thincomp">Thin Compressed</button>
+            <button id="blackext">Black Extended</button>
+            <button id="random">Random</button>
+        </section>
+        <section id="content" class="magmatic">
+            <p>
+                Magmatic is a massive sans serif series from Cyrus Highsmith and June Shin from Occupant Fonts. Its nuts-and-bolts character remains steady through an extensive range of widths and weights. The design was loosely inspired by Japanese Showa-era typefaces found on shipping labels, machinery, and buildings.
+            </p>
+        </section>
+        
+    </body>
+</html>

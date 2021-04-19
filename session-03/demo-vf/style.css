@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Magmatic';
+  src: url('fonts/magmatic-vf.woff2') format('woff2-variations'),
+  url('fonts/magmatic-vf.woff') format('woff-variations'),
+  url('fonts/magmatic-vf.ttf') format('truetype-variations');
+}
+
+:root{
+	--wght: 300;
+	--wdth: 120;
+	--XHGT: 100;
+
+	--color: red;
+}
+body{
+	font-family: 'Magmatic', sans-serif;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 1.5;
+	margin-bottom: 4rem;
+	color:  var(--color);
+}
+
+.magmatic, .magmatic *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+}
+
+section{
+	margin: 3rem 0;
+}
+
+
+#intro{
+	font-size:30vw;
+	line-height: 0.9;
+	text-align: center;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 900;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: ': ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+}
+
+
+/*BUTTON STYLES*/
+
+#buttons{
+	text-align: center;
+}
+button{
+	font-family: 'Magmatic', sans-serif;
+	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
+	font-size: 1em;
+	background: white;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid black;
+	padding: 1em;
+}
+button:hover{
+	color: blue;
+	cursor: pointer;
+}
