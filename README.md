@@ -24,7 +24,7 @@ April 13, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibb
 - using  `Math.random` for generative designs
 
 ## Code Lab Session 3: Variable Fonts
-April 20, 2021
+April 20, 2021 | 🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=354d95e4-8a96-4ae9-8b0f-ad1001236c9d)
 - working with Variable Fonts with JavaScript, input interactivity
 
 ## Code Lab Session 4: APIs and JSON

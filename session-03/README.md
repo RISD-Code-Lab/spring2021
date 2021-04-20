@@ -1,5 +1,6 @@
 # Codelab Session 3: Introduction to Variable Fonts
 
+🎥 **We recorded a walkthrough of some of these demos^ on April 20, 2021.** Find that video [here](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=354d95e4-8a96-4ae9-8b0f-ad1001236c9d).
 
 ## What’s a variable font?
 A variable font is a single font file contains many different variations of a typeface, instead of having a separate font file for every style of the type family. This format was developed in collaboration by Adobe, Apple, Google, and Microsoft.
