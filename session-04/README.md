@@ -169,10 +169,6 @@ Let’s review some examples from Open Weather Map API calls.
 - To review JSON file on browser, [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) plugin is useful.
 - More read 👉🏼 [Query String,  Documenting APIs: Parameters](https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html#query_string_parameters)
 
-### API Query with parsing JSON
-
-Based on the query string, we can divide the api url into static url and variables, and then query the data with user interaction by using the variables. Below example shows how to change the output when user enters a data. 
-
 
 # Other resources
 - [Mozilla: Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
