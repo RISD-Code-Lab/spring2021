@@ -130,28 +130,51 @@ To load JSON data using jQuery, use the `getJSON()` or `ajax()` method. The `jQu
 
 ```html
 <!DOCTYPE html>
-<html>
-<head>
-  <title>How to implement jQuery</title>
-</head>
-<body>
-	<div id="color">
-		Color
-	</div>
-	<button></button>
-	<script src="/common/jquery-3.4.1.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$("button").click(function(event){
-			$.getJSON('yourjson.json', function(mycolor) {
-				$('#color').html('<p>Red:' + mycolor.r+ '</p>');
-				$('#color').append('<p>Green:' + mycolor.g+ '</p>');
-				$('#color').append('<p>Blue:' + mycolor.b+ '</p>');
-			});
-			});
-			
-		});
-	</script>
-</body>
+<html lang="en">
+    <head>
+        <title>JSON Demo</title>
+    </head>
+    <body>
+      <div id="color">My Color</div>
+      <button>Click</button>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function() {
+           $("button").click(function(event){
+              $.getJSON('yourjson.json', function(mycolor) {
+                 $('#color').html('<p>Red:' + mycolor.code['r'] + '</p>');
+                 $('#color').append('<p>Green:' + mycolor.code['g'] + '</p>');
+                 $('#color').append('<p>Blue:' + mycolor.code['b'] + '</p>');
+              });
+           });
+        });
+     </script>
+    </body>
 </html>
 ```
+
+## APIs 
+
+Data is usually loaded as an external file or request it from an API. API stands for Application Programming Interface, it is a set of routines, protocols, and tools for building software applications. You can think API as a messenger that tells requests and tells a system what you want to do, and returns the response back. In this workshop, I will use Open Weather Map as a sample API source. 
+
+### Query string
+Let’s review some examples from Open Weather Map API calls.
+```
+    api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+    api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={API key}
+```
+*⚠️ API key is a unique identifier used to authenticate a user, developer, or calling program to an API. The API key shown in the demos is one I generated for this workshop. To get an access the API in Open Weather Map for your project, you will need to create an account in their website and generate your own API key.*
+
+- The question mark `?q=` followed by the parameters and their values is referred to as the query string. It assigns a parameter of data by querying a specific condition. In the query string, each parameter is listed one right after the other with an ampersand `&` separating them. The order of the query string parameters does not matter. 
+- To review JSON file on browser, [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) plugin is useful.
+- More read 👉🏼 [Query String,  Documenting APIs: Parameters](https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html#query_string_parameters)
+
+### API Query with parsing JSON
+
+Based on the query string, we can divide the api url into static url and variables, and then query the data with user interaction by using the variables. Below example shows how to change the output when user enters a data. 
+
+
+# Other resources
+- [Mozilla: Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+- [Mozilla: Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+- [JSON.org](https://www.json.org/json-en.html)
