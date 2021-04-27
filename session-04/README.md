@@ -1,4 +1,4 @@
-# Working with Data
+# APIs and JSON
 In this workshop, we will go through how we can process a quantity of data in your web project by looking at two methods: APIs and JSON data. Through demos, we will look at how to write, read a data object, as well as how we can request data written by someone into your web project. 
 
 ### Data visualization examples
