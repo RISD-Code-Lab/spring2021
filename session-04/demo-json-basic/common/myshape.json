@@ -1,0 +1,9 @@
+{
+    "name": "myshape", 
+    "code": {
+        "r": 0,
+        "g": 255,
+        "b": 0 
+    },
+    "shapes" : ["circle", "square", "oval"]
+}
