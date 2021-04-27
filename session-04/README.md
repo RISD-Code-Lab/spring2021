@@ -16,7 +16,7 @@ There are a few data formats that are standardized for computer to read.
 - More read 👉 [Mozilla: Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 
 ### CSV
-- *Comma-separaated Values*. 
+- *Comma-separated Values*. 
 - Represents tabular data: a form of table in which values for each column of the table are separated by commas.
 - Simple and light-weight, used to handle a huge amounts of data.
 - Easy to use in a Spreadsheet Program.
@@ -46,7 +46,7 @@ var color = {
     "r": 255,
     "g": 0,
     "b": 0
-}
+};
 ```
 JSON can be easily bulky and complex to load a length of data. In this case, JSON can be loaded into your project as a stand alone file. There are no variables in this file — it is just an object that starts with the curly brackets.
 
@@ -80,7 +80,7 @@ var shapes = {
         "b": 0 
       }
    ]
-}
+};
 ```
 
 ### Data path
@@ -106,15 +106,15 @@ If your JSON file is short enough, you can directly implement it into your JS fi
 
 ```js
 // JSON object
-var mycolor = {
-    "name": "red", 
+var myshape = {
+    "name": "myshape", 
     "code": {
       "r": 255,
       "g": 0,
       "b": 0 
     },
     "shapes" : ["circle", "square", "oval"] 
-}
+};
 // accessing JSON object
 console.log(mycolor.name); // red
 console.log(mycolor.code); // { r: 255, g: 0, b: 0}
