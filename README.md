@@ -28,7 +28,7 @@ April 20, 2021 | 🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/
 - working with Variable Fonts with JavaScript, input interactivity
 
 ## Code Lab Session 4: APIs and JSON
-April 27, 2021
+April 27, 2021 | 🎥 [recording](https://risd.zoom.us/rec/share/crx08sQ3kftCMv23qX4hQzDeWvm0jCOI4My5rZv4GVM7Dk62aj6crnrpKpHj1qXN.pf02g2t7IKUAQOce)
 - integrating JavaScript libraries, storing data
 
 ## Code Lab Session 5: Publishing to the Web
