@@ -1,7 +1,7 @@
 # APIs and JSON
 In this workshop, we will go through how we can process a quantity of data in your web project by looking at two methods: APIs and JSON data. Through demos, we will look at how to write, read a data object, as well as how we can request data written by someone into your web project. 
 
-🎥 **We recorded a walkthrough of some of these demos^ on April 27, 2021.** Find that video [here]https://risd.zoom.us/rec/share/crx08sQ3kftCMv23qX4hQzDeWvm0jCOI4My5rZv4GVM7Dk62aj6crnrpKpHj1qXN.pf02g2t7IKUAQOce)
+🎥 **We recorded a walkthrough of some of these demos^ on April 27, 2021.** Find that video [here](https://risd.zoom.us/rec/share/crx08sQ3kftCMv23qX4hQzDeWvm0jCOI4My5rZv4GVM7Dk62aj6crnrpKpHj1qXN.pf02g2t7IKUAQOce)
 
 ### Data visualization examples
 - [Weather gradient](http://weathergradient.com/)
