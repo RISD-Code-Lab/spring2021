@@ -32,7 +32,7 @@ April 27, 2021 | 🎥 [recording](https://risd.zoom.us/rec/share/crx08sQ3kftCMv2
 - integrating JavaScript libraries, storing data
 
 ## Code Lab Session 5: Publishing to the Web
-May 4, 2021
+May 4, 2021 | 🎥 [recording](https://drive.google.com/open?id=1qDX1-zQ7J_EWG5QSJ3y_A24N1JRm9pdP)
 - local vs. servers, Github, FTP, file paths and directories
 
 
