@@ -24,15 +24,15 @@ April 13, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibb
 - using  `Math.random` for generative designs
 
 ## Code Lab Session 3: Variable Fonts
-April 20, 2021 | 🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=354d95e4-8a96-4ae9-8b0f-ad1001236c9d) | [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-03)
+April 20, 2021 | 🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=354d95e4-8a96-4ae9-8b0f-ad1001236c9d) | 🗒 [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-03)
 - working with Variable Fonts with JavaScript, input interactivity
 
 ## Code Lab Session 4: APIs and JSON
-April 27, 2021 | 🎥 [recording](https://risd.zoom.us/rec/share/crx08sQ3kftCMv23qX4hQzDeWvm0jCOI4My5rZv4GVM7Dk62aj6crnrpKpHj1qXN.pf02g2t7IKUAQOce) | [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-04)
+April 27, 2021 | 🎥 [recording](https://risd.zoom.us/rec/share/crx08sQ3kftCMv23qX4hQzDeWvm0jCOI4My5rZv4GVM7Dk62aj6crnrpKpHj1qXN.pf02g2t7IKUAQOce) | 🗒 [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-04)
 - integrating JavaScript libraries, storing data
 
 ## Code Lab Session 5: Publishing to the Web
-May 4, 2021 | 🎥 [recording](https://drive.google.com/open?id=1qDX1-zQ7J_EWG5QSJ3y_A24N1JRm9pdP) | [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-05)
+May 4, 2021 | 🎥 [recording](https://drive.google.com/open?id=1qDX1-zQ7J_EWG5QSJ3y_A24N1JRm9pdP) | 🗒 [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-05)
 - local vs. servers, Github, FTP, file paths and directories
 
 
