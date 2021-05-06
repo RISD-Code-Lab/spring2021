@@ -20,7 +20,7 @@ April 6, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/pNRl1nNC7Xfkly
 
 
 ## Code Lab Session 2: Using Randomness
-April 13, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibbNymPD-svl3EiUA9oZM-YVst2aT6eOJlfYv9Za8xZHucOflXGgTP.jjQRqd2Vg8Egmxj4) | 🗒 [recipe 1](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-cube/RECIPE.md), [recipe 2](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-sentences/RECIPE.md), [recipe 3](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-walk/RECIPE.md)
+April 13, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibbNymPD-svl3EiUA9oZM-YVst2aT6eOJlfYv9Za8xZHucOflXGgTP.jjQRqd2Vg8Egmxj4) | 🗒 [recipe 1](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-sentences/RECIPE.md), [recipe 2](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-cube/RECIPE.md), [recipe 3](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-walk/RECIPE.md)
 - using  `Math.random` for generative designs
 
 ## Code Lab Session 3: Variable Fonts
