@@ -15,12 +15,12 @@ You can also check out materials from our previous iteration of [Code Lab in Spr
 # Schedule
 
 ## Code Lab Session 1: The JavaScript Toggle
-April 6, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/pNRl1nNC7XfklySDIKqqgRWE4UrjJNkz5RTmjuiaXTp6S9m5nEjqhW3c6E2ZLMhl.m4Vhebdjar6O0LKm)
+April 6, 2021  |  🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d2d218b-8ca4-498b-bdef-ad020100da7f)
 - how to control CSS with JavaScript, how JS works with your HTML/CSS
 
 
 ## Code Lab Session 2: Using Randomness
-April 13, 2021  |  🎥 [recording](https://risd.zoom.us/rec/share/FLlg5WX-3-ibbNymPD-svl3EiUA9oZM-YVst2aT6eOJlfYv9Za8xZHucOflXGgTP.jjQRqd2Vg8Egmxj4) | 🗒 [recipe 1](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-sentences/RECIPE.md), [recipe 2](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-cube/RECIPE.md), [recipe 3](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-walk/RECIPE.md)
+April 13, 2021  |  🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4a6a02bf-8f62-495e-aebd-ad0900ff643c) | 🗒 [recipe 1](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-sentences/RECIPE.md), [recipe 2](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-cube/RECIPE.md), [recipe 3](https://github.com/RISD-Code-Lab/spring2021/blob/main/session-02/demo-random-walk/RECIPE.md)
 - using  `Math.random` for generative designs
 
 ## Code Lab Session 3: Variable Fonts
@@ -28,7 +28,7 @@ April 20, 2021 | 🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/
 - working with Variable Fonts with JavaScript, input interactivity
 
 ## Code Lab Session 4: APIs and JSON
-April 27, 2021 | 🎥 [recording](https://risd.zoom.us/rec/share/crx08sQ3kftCMv23qX4hQzDeWvm0jCOI4My5rZv4GVM7Dk62aj6crnrpKpHj1qXN.pf02g2t7IKUAQOce) | 🗒 [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-04)
+April 27, 2021 | 🎥 [recording](https://risd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b18b084-de0e-427f-860b-ad1700fa15bb) | 🗒 [readme](https://github.com/RISD-Code-Lab/spring2021/tree/main/session-04)
 - integrating JavaScript libraries, storing data
 
 ## Code Lab Session 5: Publishing to the Web
