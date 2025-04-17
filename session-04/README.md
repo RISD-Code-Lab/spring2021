@@ -132,12 +132,9 @@ To load JSON data using jQuery, use the `getJSON()` or `ajax()` method. The `jQu
 
 | Case                                           | Needs Server? | Why                                                |
 |------------------------------------------------|----------------|-----------------------------------------------------|
-| JS object defined in file                      | ❌ No          | Treated like a real website, so JS is trusted to fetch
-memory                              |
-| fetch() from remote API (e.g. OpenWeatherMap)  | ❌ No          | No local file access risk
-frombrowser                      |
-| fetch('./myshape.json') from local file        | ✅ Yes         | Most browsers block file-to-file, could expose sensitive data
- fetch              |
+| JS object defined in file                      | ❌ No          | It's just JS in                            |
+| fetch() from remote API (e.g. OpenWeatherMap)  | ❌ No          | No local file access risk                     |
+| fetch('./myshape.json') from local file        | ✅ Yes         | Most browsers block file-to-file, could expose sensitive data        |
 
 ```html
 <!DOCTYPE html>
