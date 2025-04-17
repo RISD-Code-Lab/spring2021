@@ -43,7 +43,7 @@ Basic JSON file is a **string** like the following, with the quotations around t
 
 ```js
 /* .js */
-var color = {
+const color = {
     "name" : "mycolor", 
     "r": 255,
     "g": 0,
@@ -69,7 +69,7 @@ JSON can have more than one object, and also lets you create nested arrays.
 
 ```js
 /* .js */
-var shapes = {
+const shapes = {
   "myshape": [
       { "shape": "circle", // this is data object [0]
         "r": 0,
@@ -108,7 +108,7 @@ If your JSON file is short enough, you can directly implement it into your JS fi
 
 ```js
 // JSON object
-var myshape = {
+const myshape = {
     "name": "myshape", 
     "code": {
       "r": 255,
