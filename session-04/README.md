@@ -130,6 +130,15 @@ To load JSON data using jQuery, use the `getJSON()` or `ajax()` method. The `jQu
 
 *⚠️You will need to set up your local server to load JSON in your web project locally. In this demo, I used python in terminal; more details 👉🏼 [Mozilla: How do you set up a local testing server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server); you can also consider using an app such as [MAMP](https://www.mamp.info/) instead.*
 
+| Case                                           | Needs Server? | Why                                                |
+|------------------------------------------------|----------------|-----------------------------------------------------|
+| JS object defined in file                      | ❌ No          | Treated like a real website, so JS is trusted to fetch
+memory                              |
+| fetch() from remote API (e.g. OpenWeatherMap)  | ❌ No          | No local file access risk
+frombrowser                      |
+| fetch('./myshape.json') from local file        | ✅ Yes         | Most browsers block file-to-file, could expose sensitive data
+ fetch              |
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
